@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 130vh;
+    background-color: rgb(1,87,97);
+}
+header .col .c-1{
+    padding: 3vh 0 0 3vw;
+}
+header .col .c-1 .offcanvas{
+    width: 100vw;
+    transition: 1.3s;
+    background-color: rgb(1,87,97);
+}
+.offcanvas-body .container{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.offcanvas .offcanvas-header{
+    font-size: 5em;
+    color: white;
+    text-align: end;
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+}
+.offcanvas-body .container a{
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+    margin-bottom: 30px;
+    width: 50vh;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+header .col .logos{
+    display: none;
+    }
+header .col .c-1 h1{
+    font-size: 2em;
+    color: rgb(247,220,79);
+    padding-left: 5vh;
+}
+header .col .c-1 .menu{
+    display: none;
+}
+header .col .c-1 ul{
+    list-style: none;
+    display: flex;
+}
+header .col .c-1 ul li{
+    padding-right: 40px;
+}
+header .col .c-1 ul li a{
+    color: white;
+    text-decoration: none;
+}
+header .col .c-1 ul li a:hover{
+    color: rgb(247,220,79);
+    transition: 1s;
+}
+header .col .c-2{
+    padding-left: 20vh;
+    padding-top: 30vh;
+    line-height: 20px;
+}
+header .col .c-2 p{
+    font-size: 3em;
+    color: rgb(247,220,79);
+}
+header .col .c-2 h1{
+    font-size: 7em;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 5px 5px 8px black;
+}
+header .col .c-2 .c-2-1{
+    color: white;
+}
+header .co-2{
+    background-image: url(./images/p-1.jpg);
+    height: 130vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .sec-1{
+    background-color: rgb(241,240,240);
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 15vh 50vh;
+}
+main .sec-1 h1{
+    text-align: center;
+    color: rgb(1,87,97);
+    font-size: 4em;
+    font-weight: bolder;
+}
+main .sec-1 button{
+    color: rgb(1,87,97);
+    background-color: rgb(247,220,79);
+    border-radius: 0;
+    border: none;
+}
+main .sec-1 button:hover{
+    color: rgb(247,220,79);
+    background-color: rgb(1,87,97);
+    border-radius: 0;
+    transition: 1s;
+    border: none;
+}
+main .sec-2{
+}
+main .sec-2 h1{
+    padding: 10vh 0;
+    font-weight: bolder;
+    font-size: 5em;
+    color: rgb(1,87,97);
+    text-align: center;
+}
+main .sec-2 .carousel{
+    padding-bottom: 10vh;
+}
+main .sec-3{
+    background-color: rgb(1,87,97);
+}
+main .sec-3 .co-1{
+    background-image: url(/images/p-2.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main .sec-3 .co-2 h1{
+    padding: 10vh 0 3vh;
+    font-weight: bolder;
+    font-size: 4em;
+    color: rgb(247,220,79);
+    text-align: center;
+}
+main .sec-3 .co-2 .contacts{
+    padding-left: 20vh;
+    text-align: start;
+}
+main .sec-3 .co-2 .contacts p{
+    font-size: larger;
+    font-weight: bolder;
+}
+main .sec-3 .co-2 .contacts a{
+    text-decoration: none;
+    color: white;
+}
+main .sec-3 .co-2 .contacts a:hover{
+    color: rgb(247,220,79);
+    transition: 1s;
+}
+main .sec-3 .co-2 .contacts a i{
+    padding-left: 8px;
+    font-size: 1.5em;
+}
+main .About-me .offcanvas{
+    background: rgb(1,87,97);
+}
+main .About-me .offcanvas a{
+    color: white;
+    font-size: 0.5em;
+    cursor: pointer;
+}
+main .About-me .offcanvas .offcanvas-body h1{
+    color: rgb(247,220,79);
+    font-size: 3em;
+    padding-bottom: 10px;
+}
+main .About-me .offcanvas .offcanvas-body h3{
+    color: rgb(247,220,79);
+}
+main .About-me .offcanvas .offcanvas-body ul{
+    list-style: disc;
+}
+main .About-me .offcanvas .offcanvas-body ul li{
+    color: white;
+}
+main .About-me .offcanvas .offcanvas-body .resume{
+    color: white;
+}
+main .About-me .offcanvas .offcanvas-body .resume a{
+    color: rgb(247,220,79);
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+main .About-me .offcanvas .offcanvas-body .summary{
+    color: white;
+}
+@media screen and (max-width: 991px) {
+    header .col .c-1 ul{
+        display: none;
+    }
+    header .row{
+        display: block;
+    }
+    header .col .c-1{
+        display: flex;
+        align-items: center;
+    }
+    header .col .c-1 h1{
+        margin-right: auto;
+    }
+    header .col .c-1 .menu{
+        display: block;
+    }
+    header .col .c-1 a{
+        display: block;
+    }
+    header .col .logos{
+        display: block;
+        background-color: rgb(247,220,79);
+        height: 5vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 1.5em;
+        border-radius: 5px;
+    }
+    header .col .c-1 a i{
+        font-size: 5em;
+        color: white;
+    }
+    header .col .c-2{
+        padding-top: 5vh;
+        padding-left: 5vh;
+        padding-bottom: 2vh;
+    }
+    header .col .c-2 h1{
+        font-size: 6em;
+    }
+    header .col .c-2 .c-2-1{
+       font-size: 1.5em;
+    }
+    header .co-2{
+        width: 100vw;
+    }
+
+    main .sec-1{
+        width: 100vw;
+        padding: 5vh 20vw;
+        height: fit-content;
+    }
+    main .sec-3 .row .co-1{
+        display: none;
+    }
+    main .sec-3 .row .co-2{
+        height: 70vh;
+    }
+    main .sec-3 .co-2 .contacts a i{
+        padding-right: 20px;
+        font-size: 2em;
+    }
+  }
